@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Dangs</h1>
+
+<div id="dangs">
+  <% @dangs.each do |dang| %>
+    <%= render dang %>
+    <p>
+      <%= link_to "Show this dang", dang %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New dang", new_dang_path %>

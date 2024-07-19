@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @dang %>
+
+<div>
+  <%= link_to "Edit this dang", edit_dang_path(@dang) %> |
+  <%= link_to "Back to dangs", dangs_path %>
+
+  <%= button_to "Destroy this dang", @dang, method: :delete %>
+</div>

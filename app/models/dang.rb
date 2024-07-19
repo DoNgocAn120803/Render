@@ -1,0 +1,2 @@
+class Dang < ApplicationRecord
+end
